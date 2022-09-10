@@ -1,0 +1,26 @@
+.sign-in-box {
+    text-align: center;
+    padding: 15%;
+
+}
+
+
+.button {
+    background-color: rgb(243, 191, 96);
+}
+
+.help {
+    color: rgb(62, 126, 254);
+    text-align: left;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.words {
+    text-align: center;
+    color: grey;
+}
