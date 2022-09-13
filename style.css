@@ -1,12 +1,21 @@
-.sign-in-box {
-    text-align: center;
-    padding: 15%;
+.flexbox-container {
+    /* text-align: center; */
 
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 150px ;
 }
-
+ .flexbox-items {
+    width: 350px;
+    padding: 15px;
+    border: 1px lightgray solid;
+    margin: 10px;
+ }
 
 .button {
     background-color: rgb(243, 191, 96);
+    border: 1px grey solid;
 }
 
 .help {
@@ -23,4 +32,36 @@
 .words {
     text-align: center;
     color: grey;
+}
+
+.username {
+height: 30px;
+    width: 345px;
+}
+
+.password {
+height: 30px;
+    width: 345px;
+}
+
+.button {
+        width: 354px;
+        height: 30px;
+}
+
+h4:after,
+h4:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0
+    \00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+
+.bottum-button {
+    width: 345px;
+    padding: 7.2px;
+}
+
+#forgot, #help  {
+    text-decoration: none;
 }

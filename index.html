@@ -9,46 +9,51 @@
   </head>
   <!-- need sign in, email(phone or mobile acct), password, forgot password -->
   <body>
-    <nav>
-      <nav class="sign-in-box">
-        <h1>Sign in</h1>
-        <nav class="box">
-          Email (Phone or Mobile) <input type="text" placeholder="Email" />
+    <div>
+      <div class="flexbox-container">
+        <div class="flexbox-items">
+          <p style="font-size: x-large ;"><b>Sign In</b></p>
+          <p><small>Email (phone or mobile accounts)</small></p>
+          <input type="text" placeholder="Email" class="username" />
           <br />
-          <br />
-          Password <input type="password" placeholder="Password" />
-          <small>
-            <a href="#" style="color: rgb(62, 126, 254)">forgot password?</a>
-          </small>
+
+          <p>
+            <small style="padding-right: 175px">Password</small>
+            <a href="#" id="forgot" style="color: rgb(62, 126, 254)">forgot password?</a>
+          </p>
+
+          <input type="password" placeholder="Password" class="password" />
           <br />
           <br />
           <button class="button">Continue</button>
           <br />
           <br />
-          <a href="#" class="help">Need help?</a>
+          <a href="#" class="help" id="help">Need help?</a>
           <br />
-          <hr />
-          New to Amazon?
-          <br />
-          <br />
-          <button>Create an account</button>
-        </nav>
-      </nav>
-      <hr />
-      <nav class="last">
-        <small
-          ><a href="#" style="color: rgb(62, 126, 254)"
-            >Conditions of use</a
-          ></small
-        >
-        <small
-          ><a href="#" style="color: rgb(62, 126, 254)"
-            >Privacy Policy</a
-          ></small
-        >
-        <small><a href="#" style="color: rgb(62, 126, 254)">Help</a></small>
-      </nav>
-      <h6 class="words">&#169; 1996-2022, Amazon.com,inc or its affiliates</h6>
-    </nav>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <h4 class="amzn" style="color: rgb(157, 157, 157)">New to Amazon?</h4>
+
+        <button style="margin-bottom: 225px" class="bottum-button">
+          Create Your Amazon Account
+        </button>
+      </div>
+    </div>
   </body>
+  <div class="footer">
+    <hr />
+    <div class="last">
+      <small
+        ><a href="#" style="color: rgb(62, 126, 254)"
+          >Conditions of use</a
+        ></small
+      >
+      <small
+        ><a href="#" style="color: rgb(62, 126, 254)">Privacy Policy</a></small
+      >
+      <small><a href="#" style="color: rgb(62, 126, 254)">Help</a></small>
+    </div>
+    <h6 class="words">&#169; 1996-2022, Amazon.com,inc or its affiliates</h6>
+  </div>
 </html>
